@@ -1,1 +1,109 @@
 /* You can add global styles to this file, and also import other style files */
+
+.settings-tabs .ui-inputtext {
+  margin: 0 !important;
+  outline: medium none !important;
+  padding: .25em !important;
+  font-weight: normal !important;
+  border-radius: 3px !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+  border: 1px solid #d6d6d6 !important;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+tr, th, td, tbody {
+  border: none !important;
+  background: none !important;
+  text-align: left !important;
+  padding: 15px 5px !important;
+}
+
+th {
+  font-weight: bold !important;
+}
+
+.ui-datatable tbody > tr.ui-widget-content.ui-state-highlight {
+  background-color: #186ba0 !important;
+  color: #FFFFFF !important;
+}
+
+.ui-datatable th.ui-state-active {
+  background: #186ba0 !important;
+}
+
+.picker__table td {
+  text-align: center !important;
+}
+
+.picker__table td {
+  margin: 0;
+  padding: 0 !important;
+}
+
+.ui-dropdown {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  outline: none;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  padding: 0;
+  display: block;
+}
+
+.ui-dropdown .ui-state-default {
+  border: none;
+  background: #ffffff;
+  color: #555555;
+}
+
+.ui-dropdown .ui-state-highlight {
+  border-color: #156090;
+  background: #eee !important;
+  color: #FFFFFF;
+}
+
+.ui-dropdown .ui-dropdown-label {
+  display: initial;
+  border: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: normal;
+  width: 100%;
+  padding-right: 1.5em;
+  box-shadow: none;
+}
+
+.ui-dropdown-panel .ui-dropdown-item {
+  font-size: 16px;
+  color: #26a69a;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+.ui-dropdown-items-wrapper {
+  max-height: none !important;
+}
+
+.ui-dropdown label.ui-dropdown-label {
+  cursor: pointer;
+  font-size: 16px;
+  color: #26a69a;
+  display: block;
+  line-height: 22px;
+  padding: 11px 16px;
+}
+
+.ui-datepicker {
+  width: inherit !important;
+}
