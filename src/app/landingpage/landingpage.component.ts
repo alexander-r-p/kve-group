@@ -15,7 +15,7 @@ export class LandingpageComponent implements OnInit {
 
   ngOnInit() {
     $(document).ready(function(){
-      $('.carousel').carousel({dist: 20});
+      $('.carousel').carousel({dist: -20});
     });
   }
 }
