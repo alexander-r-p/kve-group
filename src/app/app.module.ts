@@ -14,6 +14,8 @@ import {CatalogService} from "./services/catalog.service";
 import { OrderComponent } from './order/order.component';
 import {RoutingModule} from "./routing/routing.module";
 
+import {GalleriaModule} from 'primeng/primeng';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,8 @@ import {RoutingModule} from "./routing/routing.module";
     BrowserModule,
     FormsModule,
     HttpModule,
-    RoutingModule
+    RoutingModule,
+    GalleriaModule
   ],
   providers: [CatalogService],
   bootstrap: [AppComponent]

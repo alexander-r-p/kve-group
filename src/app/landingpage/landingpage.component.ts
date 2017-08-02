@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
+declare var jquery:any;
+declare var $ :any;
 
 @Component({
   selector: 'app-landingpage',
@@ -6,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./landingpage.component.css']
 })
 export class LandingpageComponent implements OnInit {
+  constructor(private domSanitizationService: DomSanitizer) { }
 
-  constructor() { }
+  i18nHtmlPage: SafeHtml;
 
   ngOnInit() {
+    $(document).ready(function(){
+      $('.carousel').carousel({dist: 20});
+    });
   }
-
 }
