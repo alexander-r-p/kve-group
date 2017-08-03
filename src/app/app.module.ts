@@ -15,6 +15,7 @@ import { OrderComponent } from './order/order.component';
 import {RoutingModule} from "./routing/routing.module";
 
 import {GalleriaModule} from 'primeng/primeng';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {GalleriaModule} from 'primeng/primeng';
     LandingpageComponent,
     UsermanualComponent,
     ContactsComponent,
-    OrderComponent
+    OrderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
